@@ -1,0 +1,40 @@
+li a, p {
+    margin-left: 0.5em;
+    font-size: 1.5em;
+}
+
+form > input[type=radio] {
+    margin-left: 50px;
+}
+ul, p {
+    list-style: none;
+    padding:0;
+    margin: 50px auto 20px 50px;
+}
+
+li {
+    padding-left: 1em;
+    text-indent: -.7em;
+}
+
+li:before {
+    content: "• ";
+    color: darkblue;
+}
+
+body {
+    background: white url("images/bg.jpg") no-repeat right bottom;
+    color: darkblue;
+}
+
+a {
+    margin: 20px auto auto 50px;
+}
+
+h1 {
+    margin: 50px auto auto 50px;
+}
+
+input[type=submit] {
+    margin: 20px auto auto 50px;
+}
